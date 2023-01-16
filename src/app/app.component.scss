@@ -1,0 +1,18 @@
+.drop-list {
+  width: 500px;
+  @apply border border-solid border-teal-500;
+  @apply bg-teal-400;
+  min-height: 60px;
+}
+
+.drop-box {
+  @apply py-5 px-2 border border-solid border-teal-500 flex flex-row items-center justify-between box-border cursor-move;
+  @apply bg-teal-400 text-sm;
+  color: rgba($color: white, $alpha: 0.87);
+}
+.custom-placeholder {
+  background: #ccc;
+  border: dotted 3px #999;
+  min-height: 60px;
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
